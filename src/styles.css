@@ -25,9 +25,12 @@ html{scroll-behavior:smooth}body{overflow-x:hidden}.skip-link{position:fixed;z-i
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}#main-content>main{animation:none}.button:hover,.nav-cta:hover{transform:none}}
 
 /* In-page quote delivery states */
-.contact-layout form>small{font-size:0}.contact-layout form>small:after{content:"Your details are sent securely to JD Prestige Cleaning Services.";font-size:.76rem}.contact-layout form button:disabled{cursor:wait;opacity:.82}.contact-layout form button.sent{background:#77b86b;color:#09251f}.contact-layout form button.failed{background:#f0c8bd;color:#5b1f12}
+.contact-layout form button:disabled{cursor:wait;opacity:.82}.contact-layout form button.sent{background:#77b86b;color:#09251f}.contact-layout form button.failed{background:#f0c8bd;color:#5b1f12}
 @media(prefers-reduced-motion:reduce){.image-story>img{animation:none!important;content:url('/images/prestige-eco.png')}}
 
 /* Unique photography for individual pages */
 .story img{content:url('/images/prestige-about-team.png')}.page-hero-photo img{content:url('/images/prestige-contact-arrival.png')}
 @keyframes story-image-cycle{0%,24%{content:url('/images/prestige-eco.png')}25%,49%{content:url('/images/prestige-cleaner-living-room-v2.png')}50%,74%{content:url('/images/prestige-bedroom-vacuum.png')}75%,100%{content:url('/images/prestige-cleaners-kitchen.png')}}
+
+/* Launch refinements */
+.faq-list{max-width:950px}.faq-list details{border-bottom:1px solid #bdcbc4;padding:23px 0}.faq-list summary{cursor:pointer;font-size:1.1rem;font-weight:600;line-height:1.5}.faq-list p{margin:18px 0 0;max-width:760px}.form-heading{font-size:2.3rem;line-height:1.15}.form-status:empty{display:none}.form-status{padding:16px;background:#dce6dd;color:#112b28;font-size:.9rem}.contact-layout form>small{display:block;font-size:.8rem;line-height:1.7}.contact-layout form>small a,.privacy-copy a{text-decoration:underline;overflow-wrap:anywhere}.form-alternatives{display:flex;flex-wrap:wrap;gap:18px;margin-top:24px;font-size:.86rem;font-weight:600}.privacy-copy{max-width:900px;margin:auto;padding:80px 6vw}.privacy-copy h2{font-size:2.5rem}.privacy-copy h3{margin-top:35px}.not-found{padding:55px 6vw}.contact-info span,.footer-grid a{overflow-wrap:anywhere}.floating-card{z-index:2}.hero-art{animation:none;background:none}.hero-art>img{opacity:1}.image-story{overflow:hidden}.image-story>img,.page-hero-photo img{animation:none!important}.image-story>img{content:normal!important}@media(max-width:600px){.hero-art{height:340px}.hero-copy{padding:52px 6vw}.contact-info h2{font-size:2.5rem}.page-hero-photo{height:310px}.form-heading{font-size:2rem}}
